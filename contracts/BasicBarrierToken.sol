@@ -199,7 +199,7 @@ contract BarrierProtocol is ERC20, ERC20Detailed {
   address public governance;
   mapping (address => bool) public minters;
 
-  constructor () public ERC20Detailed("BarrierProtocol", "BARRIER", 18) {
+  constructor () public ERC20Detailed("BarrierProtocol", "BARP", 18) {
       governance = msg.sender;
   }
 
